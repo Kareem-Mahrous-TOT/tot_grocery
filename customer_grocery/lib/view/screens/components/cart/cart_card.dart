@@ -7,7 +7,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // ignore: must_be_immutable
 class CartCard extends StatelessWidget {
-  CartCard({super.key, required this.item, required this.counter});
+  CartCard({
+    super.key,
+    required this.item,
+    required this.counter,
+  });
 
   final LineItem item;
   int counter;

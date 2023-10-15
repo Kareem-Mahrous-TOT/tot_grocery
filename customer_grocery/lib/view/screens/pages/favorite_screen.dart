@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:customer_grocery/core/constants/strings.dart';
 import 'package:customer_grocery/core/theme/pallete.dart';
 import 'package:customer_grocery/data/models/response/tot_products/tot_product_model.dart';
-import 'package:customer_grocery/view/screens/pages/home/product_details.dart';
+import 'package:customer_grocery/view/screens/components/home/product_details.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive_flutter/hive_flutter.dart';

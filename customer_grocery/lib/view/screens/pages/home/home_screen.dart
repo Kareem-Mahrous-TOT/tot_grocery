@@ -6,7 +6,7 @@ import 'package:customer_grocery/view/blocs/home/category/category_bloc.dart';
 import 'package:customer_grocery/view/blocs/home/home_bloc.dart';
 import 'package:customer_grocery/view/screens/components/home/avatar_text.dart';
 import 'package:customer_grocery/view/screens/components/home/card_item.dart';
-import 'package:customer_grocery/view/screens/pages/home/product_details.dart';
+import 'package:customer_grocery/view/screens/components/home/product_details.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -265,7 +265,6 @@ class HomeScreen extends StatelessWidget {
                                           //               .toString(),
                                           //           isSelected: isSelected),
                                           //     );
-
                                           if (isFav) {
                                             await box.delete(index);
                                           } else {
